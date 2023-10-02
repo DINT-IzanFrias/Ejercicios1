@@ -7,11 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image Margin="36,40,464,40" Source="/Resources/0be742b1fbd7c743d6dcb57aa950deef.jpg" Stretch="Fill"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="497,88,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="497,128,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="497,108,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="497,40,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imagen" Margin="36,40,464,40" Stretch="Fill" Source="/0be742b1fbd7c743d6dcb57aa950deef.jpg"/>
+        <RadioButton Content="alta" HorizontalAlignment="Left" Margin="497,88,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="baja" HorizontalAlignment="Left" Margin="497,128,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="media" HorizontalAlignment="Left" Margin="497,108,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <Label Content="opacidad" HorizontalAlignment="Left" Margin="497,57,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="relleno" HorizontalAlignment="Left" Margin="497,219,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_3"/>
+        <RadioButton Content="relleno uniforme" HorizontalAlignment="Left" Margin="497,259,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_5"/>
+        <RadioButton Content="uniforme" HorizontalAlignment="Left" Margin="497,239,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_4"/>
+        <Label Content="ajsutes" HorizontalAlignment="Left" Margin="493,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="sin ajuste" HorizontalAlignment="Left" Margin="497,279,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_6"/>
 
     </Grid>
 </Window>
