@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema2-AdivinaNumero", "Tema2-AdivinaNumero.csproj", "{F859E14F-7352-40CC-9E71-49CF2132CA43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F859E14F-7352-40CC-9E71-49CF2132CA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F859E14F-7352-40CC-9E71-49CF2132CA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F859E14F-7352-40CC-9E71-49CF2132CA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F859E14F-7352-40CC-9E71-49CF2132CA43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C83EB4C-50D7-4B8B-B559-4BC57A0BDAAB}
+	EndGlobalSection
+EndGlobal
