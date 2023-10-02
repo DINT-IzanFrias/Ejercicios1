@@ -1,0 +1,4 @@
+C:\Users\alumno\Desktop\Izan\DI\Tema 2\actividades\Ejercicios1\Tema2-CalculadoraBasica\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\alumno\Desktop\Izan\DI\Tema 2\actividades\Ejercicios1\Tema2-CalculadoraBasica\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\alumno\Desktop\Izan\DI\Tema 2\actividades\Ejercicios1\Tema2-CalculadoraBasica\obj\Debug\net6.0-windows\Tema2-CalculadoraBasica_MarkupCompile.cache
+C:\Users\alumno\Desktop\Izan\DI\Tema 2\actividades\Ejercicios1\Tema2-CalculadoraBasica\obj\Debug\net6.0-windows\Tema2-CalculadoraBasica_MarkupCompile.lref

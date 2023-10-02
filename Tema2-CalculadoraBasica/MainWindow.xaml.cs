@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Tema2_CalculadoraBasica
 {
@@ -27,16 +15,41 @@ namespace Tema2_CalculadoraBasica
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            resultado.Text = "";
+            numero1.Text = "";
+            numero2.Text = "";
+            signo.Text = "";
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            switch (signo)
+            if (signo.Text == "+")
             {
-                case "+":
-                    resultado.Text=int.Parse(numero1) + int.Parse(numero2);
+                int suma = int.Parse(numero1.Text) + int.Parse(numero2.Text);
 
+                resultado.Text = suma.ToString();
+            }
+            if (signo.Text == "-")
+            {
+                int suma = int.Parse(numero1.Text) - int.Parse(numero2.Text);
+
+                resultado.Text = suma.ToString();
+            }
+            if (signo.Text == "*")
+            {
+                int suma = int.Parse(numero1.Text) * int.Parse(numero2.Text);
+
+                resultado.Text = suma.ToString();
+            }
+            if (signo.Text == "/")
+            {
+                int suma = int.Parse(numero1.Text) / int.Parse(numero2.Text);
+
+                resultado.Text = suma.ToString();
+            }
+            else
+            {
+                resultado.Text = "no es un signo valido";
             }
         }
     }
