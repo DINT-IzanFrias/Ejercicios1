@@ -6,6 +6,11 @@
     <RootNamespace>Tema2_AdivinaNumero</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>128 (1).ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="128 (1).ico" />
+  </ItemGroup>
 
 </Project>

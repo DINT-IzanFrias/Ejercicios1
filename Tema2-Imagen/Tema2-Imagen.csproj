@@ -6,10 +6,15 @@
     <RootNamespace>Tema2_Imagen</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>128 (5).ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="0be742b1fbd7c743d6dcb57aa950deef.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="128 (5).ico" />
   </ItemGroup>
 
   <ItemGroup>
